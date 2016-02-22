@@ -1,6 +1,7 @@
+git config user.name "Yoko"
+&& git config user.email "Yoko"
 
-
-touch github.art
+&& touch github.art
 && git add . -A
 && git ci -m 'a' --date 2015.02.12T00:00
 
