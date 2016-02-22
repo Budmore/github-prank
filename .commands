@@ -1,0 +1,16 @@
+
+
+touch github.art
+&& git add . -A
+&& git ci -m 'a' --date 2015.02.12T00:00
+
+&& echo 'a' >> github.art
+&& git ci -am 'a' --date 2015.02.12T00:00
+
+&& echo 'a' >> github.art
+&& git ci -am 'a' --date 2015.02.12T00:00
+
+&& echo 'a' >> github.art
+&& git ci -am 'a' --date 2015.02.12T00:00
+
+
